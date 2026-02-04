@@ -1,0 +1,95 @@
+/* 1 - Seletores básicos
+
+Tipo: seleciona pelo nome da tag.*/
+
+p{
+    color: blue;
+}
+
+/* 2 - Classe (.nome): seleciona elementos que possuem uma classe específica. */
+
+.destaque{
+    font-weight: bold;
+}
+
+/* 3 - ID (#nome): seleciona um único elemento com o atributo id. */
+
+#especial{
+    background-color: yellow;
+}
+
+/* 4 - Seletores de agrupamento
+Permitem aplicar a mesma regra a vários seletores: */
+
+h1,h2,h3{
+    color: purple;
+}
+
+/* 5 -  Seletores de descendência e relacionamento
+Descendente:*/
+
+div p{
+    font-style: italic;
+}
+
+/* 6 - Filho direto (>): */
+
+div > p{
+    color: green;
+}
+
+/* 7 - Adjacente (+): */
+
+h2 + p{
+    text-decoration: underline;
+}
+
+/* 8 - Irmão geral (~):*/
+
+h1 ~ p{
+    border: 1px solid black;
+}
+
+/* 9 -  Seletores de atributo
+Baseados em atributos HTML: */
+
+a[target="_blank"]{
+    color: red;
+}
+input[type="text"]{
+    border: 2px solid hotpink;
+}
+
+/* 10. Pseudo-classes
+Selecionam estados ou condições especiais: */
+
+a:hover{
+    color: orange;
+}
+
+p:first-child{
+    font-size: 40px;
+}
+
+/* 11. Pseudo-elementos
+Estilizam partes específicas de um elemento: */
+
+p::first-letter{
+    font-size: 200%;
+    color: brown;
+}
+p::first-line{
+    font-variant: small-caps;
+    /* color: crimson; */
+}
+
+/* Seletor de estado */
+
+.destaque{
+    font-weight: bold;
+    color: turquoise;
+}
+
+#destaque{
+    color: orangered;
+}
