@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
+p{
+    padding: 20px 10px;
+    margin: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid blue;
+    width: 300px;
+    box-sizing: border-box;
+}
