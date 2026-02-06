@@ -1,0 +1,6 @@
+.gap {
+  display: flex;
+  flex-direction: column;
+  gap: 50px 20px;
+}
+
