@@ -4,9 +4,10 @@
 }
 .wrap{
     display: flex;
-    flex-wrap: wrap;
+    flex-flow:column wrap;
 }
 .wrap-reverse{
     display: flex;
     flex-wrap: wrap-reverse;
+    flex-direction: column;
 }
