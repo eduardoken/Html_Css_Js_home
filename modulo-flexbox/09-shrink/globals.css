@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 20px;
+}
+
+.container {
+  width: 500px;
+  height: 100px;
+
+  border: 2px solid #000;
+
+  margin: 20px;
+}
+
+.container div {
+  background-color: red;
+
+  margin: 10px;
+
+  text-align: center;
+
+  font-size: 20px;
+  font-weight: 700;
+}
