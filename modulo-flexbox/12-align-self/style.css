@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.auto {
+  align-self: auto;
+}
+
+.flex-start {
+  align-self: flex-start;
+}
+
+.flex-end {
+  align-self: flex-end;
+}
+
+.center {
+  align-self: center;
+}
+
+.stretch {
+  align-self: stretch;
+}
