@@ -1,0 +1,12 @@
+.container div{
+  border: 1px solid black;
+  color: white;
+  font-size: 20px;
+  background-color: blueviolet;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr auto auto;
+  grid-template-rows: 200px 100px;
+}
