@@ -1,0 +1,62 @@
+.laranja {
+  background-color: #B25954;
+}
+
+.marrom {
+  background-color: #766A67;
+}
+
+.verde-claro {
+  background-color: #309C8B;
+}
+
+.verde-escuro{
+  background-color: #35636C;
+}
+
+.azul {
+  background-color: #43ABC0;
+}
+
+.rosa {
+  background-color: #C55BA3;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(3, auto);
+  gap: 15px;
+}
+
+.verde-claro{
+  grid-column:1 / span 2;
+  grid-row:1 / span 2;
+}
+
+.azul{
+  grid-column:3 / span 3;
+  grid-row:1 / span 1;
+}
+
+.rosa{
+  grid-column:1 / span 2;
+  grid-row:3 / span 1;
+}
+
+.laranja{
+  grid-column:3 / span 2;
+  grid-row:2 / span 2;
+}
+
+.marrom{
+  grid-column:5 / span 1;
+  grid-row:3 / span 1 ;
+}
+
+.verde-escuro{
+  grid-column:5 / span 1;
+  grid-row:2 / span 1 ;
+
+}
+
