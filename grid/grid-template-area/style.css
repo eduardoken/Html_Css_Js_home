@@ -34,7 +34,7 @@
   /* grid-template-areas: "cabecalho cabecalho cabecalho"
                        "menu secao-principal aside"
                        "rodape rodape rodape"; */
-  grid: "cabecalho cabecalho cabecalho"
-        "menu secao-principal aside"
-        "rodape rodape rodape" / 200px auto 200px;
+  grid: "cabecalho cabecalho cabecalho" 1fr
+        "menu secao-principal aside" 1fr
+        "rodape rodape rodape"1fr / 200px auto 200px;
 }
