@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+.cabecalho {
+  background-color: #FF8200;
+  grid-area: cabecalho;
+}
+
+.menu {
+  background-color: #7FC78E;
+  grid-area: menu;
+}
+
+.secao-principal {
+  background-color: #FFA9C0;
+  grid-area: secao-principal;
+}
+
+.aside {
+  background-color: #FFE200;
+  grid-area: aside;
+}
+
+.rodape {
+  background-color: #F48D76;
+  grid-area: rodape;
+}
+
+.container {
+  display: grid;
+  /* grid-template-areas: "cabecalho cabecalho cabecalho"
+                       "menu secao-principal aside"
+                       "rodape rodape rodape"; */
+  grid: "cabecalho cabecalho cabecalho"
+        "menu secao-principal aside"
+        "rodape rodape rodape" / 200px auto 200px;
+}
