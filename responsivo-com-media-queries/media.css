@@ -1,0 +1,15 @@
+.header{
+    background-color: red;
+}
+
+@media screen and (max-width: 1024px){
+    .header{
+        background-color: blueviolet;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header{
+        background-color: aqua;
+    }
+}
