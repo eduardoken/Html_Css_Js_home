@@ -1,0 +1,58 @@
+/* Estilo base (claro) */
+body {
+ background-color: #f0f0f0;
+ color: #333;
+ font-family: Arial, sans-serif;
+ transition: background-color 0.3s, color 0.3s;
+}
+
+/* Container */
+.container {
+ text-align: center;
+ margin-top: 100px;
+}
+
+/* Estilo do toggle */
+.switch {
+ position: relative;
+ display: inline-block;
+ width: 60px;
+ height: 34px;
+}
+
+.switch input {
+ display: none;
+}
+
+.slider {
+ position: absolute;
+ cursor: pointer;
+ top: 0; left: 0; right: 0; bottom: 0;
+ background-color: #ccc;
+ transition: 0.4s;
+ border-radius: 34px;
+}
+
+.slider:before {
+ position: absolute;
+ content: "";
+ height: 26px; width: 26px;
+ left: 4px; bottom: 4px;
+ background-color: white;
+ transition: 0.4s;
+ border-radius: 50%;
+}
+
+input:checked + .slider {
+ background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+ transform: translateX(26px);
+}
+
+/* Tema escuro */
+body.dark {
+ background-color: #121212;
+ color: #f0f0f0;
+}
